@@ -1,0 +1,53 @@
+PODS:
+  - DateToolsSwift (4.0.0)
+  - Differentiator (3.1.0)
+  - IQKeyboardManagerSwift (6.3.0)
+  - ObjectMapper (3.4.2)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - SnapKit (5.0.0)
+  - SQLite.swift (0.11.6):
+    - SQLite.swift/standard (= 0.11.6)
+  - SQLite.swift/standard (0.11.6)
+
+DEPENDENCIES:
+  - DateToolsSwift
+  - IQKeyboardManagerSwift
+  - ObjectMapper (~> 3.3)
+  - RxCocoa (~> 4.0)
+  - RxDataSources (~> 3.0)
+  - RxSwift (~> 4.0)
+  - SnapKit (~> 5.0.0)
+  - SQLite.swift (~> 0.11.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DateToolsSwift
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SnapKit
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SQLite.swift: 46d890be8601964454bd3392527f863d1b802d45
+
+PODFILE CHECKSUM: 6cd0988b7c69a2affaeec2b18f9eb91cf8c90e75
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SmartWatch' do
+  
+    pod 'SnapKit', '~> 5.0.0'
+  
+    pod 'IQKeyboardManagerSwift'
+    pod 'DateToolsSwift'
+    #下边是RxSwift需要的
+    use_frameworks!
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'RxDataSources', '~> 3.0'
+    pod 'ObjectMapper', '~> 3.3'
+    
+    #下边是RxSwift三方数据库工具，类似FMDB
+    pod 'SQLite.swift', '~> 0.11.5'
+
+end

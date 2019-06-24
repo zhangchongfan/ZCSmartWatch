@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5930A7A5229C20DF00221653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A7A4229C20DF00221653 /* AppDelegate.swift */; };
+		5930A7AC229C20E100221653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5930A7AB229C20E100221653 /* Assets.xcassets */; };
+		5930A7AF229C20E100221653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5930A7AD229C20E100221653 /* LaunchScreen.storyboard */; };
+		5930A7B9229C266200221653 /* SWTTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A7B8229C266200221653 /* SWTTabBarController.swift */; };
+		5930A7C5229C2AC300221653 /* SWTLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A7C4229C2AC300221653 /* SWTLoginController.swift */; };
+		5930A81722BDEAA100221653 /* SWTMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A81622BDEAA100221653 /* SWTMineViewController.swift */; };
+		5930A81B22BDEC3B00221653 /* SWTMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A81A22BDEC3B00221653 /* SWTMineCell.swift */; };
+		5930A82022BDF01F00221653 /* tableview_arrow2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A81D22BDF01F00221653 /* tableview_arrow2x.png */; };
+		5930A82122BDF01F00221653 /* tableview_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A81E22BDF01F00221653 /* tableview_arrow.png */; };
+		5930A82222BDF01F00221653 /* tableview_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A81F22BDF01F00221653 /* tableview_arrow@3x.png */; };
+		5930A82522BDF25100221653 /* SWTMineCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A82422BDF25100221653 /* SWTMineCellModel.swift */; };
+		5930A82722BE011800221653 /* SWTSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A82622BE011800221653 /* SWTSettingViewController.swift */; };
+		5930A82B22BE031E00221653 /* SWTSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A82A22BE031E00221653 /* SWTSettingTableViewCell.swift */; };
+		5930A82F22BE057300221653 /* ZCCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A82E22BE057300221653 /* ZCCacheManager.swift */; };
+		5930A83522BE0EFD00221653 /* ZCNSObject+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A83122BE0EFD00221653 /* ZCNSObject+Dispatch.swift */; };
+		5930A83622BE0EFD00221653 /* ZCUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A83222BE0EFD00221653 /* ZCUIColor+Extension.swift */; };
+		5930A83722BE0EFD00221653 /* ZCNSString+Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A83322BE0EFD00221653 /* ZCNSString+Attribute.swift */; };
+		5930A83822BE0EFD00221653 /* ZCNumber+Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A83422BE0EFD00221653 /* ZCNumber+Change.swift */; };
+		5930A83A22C108A800221653 /* SWTUnitSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A83922C108A800221653 /* SWTUnitSettingController.swift */; };
+		5930A83F22C1090000221653 /* SWTBaseSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A83E22C1090000221653 /* SWTBaseSettingController.swift */; };
+		5930A84222C10FE100221653 /* SWTAppCommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84122C10FE100221653 /* SWTAppCommonColor.swift */; };
+		5930A84522C110F800221653 /* SWTAppCommonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84422C110F800221653 /* SWTAppCommonConstant.swift */; };
+		5930A84822C112FE00221653 /* SWTAboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84722C112FE00221653 /* SWTAboutUsController.swift */; };
+		5930A84A22C1157C00221653 /* SWTAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84922C1157C00221653 /* SWTAppInfo.swift */; };
+		5930A84E22C11AD700221653 /* SWTGoalSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84D22C11AD700221653 /* SWTGoalSettingController.swift */; };
+		5930A85222C11C9800221653 /* SWTSearchDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A85122C11C9800221653 /* SWTSearchDeviceController.swift */; };
+		F52DF4E1C12AD318619FE9FE /* Pods_SmartWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC2E12A70DD142A633E3D2A /* Pods_SmartWatch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		463152CCEDFF51ED11182DB0 /* Pods-SmartWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWatch.release.xcconfig"; path = "Target Support Files/Pods-SmartWatch/Pods-SmartWatch.release.xcconfig"; sourceTree = "<group>"; };
+		5930A7A1229C20DF00221653 /* SmartWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5930A7A4229C20DF00221653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5930A7AB229C20E100221653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5930A7AE229C20E100221653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5930A7B0229C20E100221653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5930A7B8229C266200221653 /* SWTTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTTabBarController.swift; sourceTree = "<group>"; };
+		5930A7C4229C2AC300221653 /* SWTLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTLoginController.swift; sourceTree = "<group>"; };
+		5930A81622BDEAA100221653 /* SWTMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTMineViewController.swift; sourceTree = "<group>"; };
+		5930A81A22BDEC3B00221653 /* SWTMineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTMineCell.swift; sourceTree = "<group>"; };
+		5930A81D22BDF01F00221653 /* tableview_arrow2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableview_arrow2x.png; sourceTree = "<group>"; };
+		5930A81E22BDF01F00221653 /* tableview_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableview_arrow.png; sourceTree = "<group>"; };
+		5930A81F22BDF01F00221653 /* tableview_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_arrow@3x.png"; sourceTree = "<group>"; };
+		5930A82422BDF25100221653 /* SWTMineCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTMineCellModel.swift; sourceTree = "<group>"; };
+		5930A82622BE011800221653 /* SWTSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTSettingViewController.swift; sourceTree = "<group>"; };
+		5930A82A22BE031E00221653 /* SWTSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTSettingTableViewCell.swift; sourceTree = "<group>"; };
+		5930A82E22BE057300221653 /* ZCCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCCacheManager.swift; sourceTree = "<group>"; };
+		5930A83122BE0EFD00221653 /* ZCNSObject+Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZCNSObject+Dispatch.swift"; sourceTree = "<group>"; };
+		5930A83222BE0EFD00221653 /* ZCUIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZCUIColor+Extension.swift"; sourceTree = "<group>"; };
+		5930A83322BE0EFD00221653 /* ZCNSString+Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZCNSString+Attribute.swift"; sourceTree = "<group>"; };
+		5930A83422BE0EFD00221653 /* ZCNumber+Change.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZCNumber+Change.swift"; sourceTree = "<group>"; };
+		5930A83922C108A800221653 /* SWTUnitSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTUnitSettingController.swift; sourceTree = "<group>"; };
+		5930A83E22C1090000221653 /* SWTBaseSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTBaseSettingController.swift; sourceTree = "<group>"; };
+		5930A84122C10FE100221653 /* SWTAppCommonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTAppCommonColor.swift; sourceTree = "<group>"; };
+		5930A84422C110F800221653 /* SWTAppCommonConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTAppCommonConstant.swift; sourceTree = "<group>"; };
+		5930A84722C112FE00221653 /* SWTAboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTAboutUsController.swift; sourceTree = "<group>"; };
+		5930A84922C1157C00221653 /* SWTAppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTAppInfo.swift; sourceTree = "<group>"; };
+		5930A84D22C11AD700221653 /* SWTGoalSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTGoalSettingController.swift; sourceTree = "<group>"; };
+		5930A85122C11C9800221653 /* SWTSearchDeviceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTSearchDeviceController.swift; sourceTree = "<group>"; };
+		7887653AA000D1AE0FA1B072 /* Pods-SmartWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWatch.debug.xcconfig"; path = "Target Support Files/Pods-SmartWatch/Pods-SmartWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		9DC2E12A70DD142A633E3D2A /* Pods_SmartWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5930A79E229C20DF00221653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DF4E1C12AD318619FE9FE /* Pods_SmartWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5930A798229C20DF00221653 = {
+			isa = PBXGroup;
+			children = (
+				5930A7A3229C20DF00221653 /* SmartWatch */,
+				5930A7A2229C20DF00221653 /* Products */,
+				5AF54F2B0D78C7C0E7E27538 /* Pods */,
+				FE76A04DE0309758E2BFE3A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5930A7A2229C20DF00221653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5930A7A1229C20DF00221653 /* SmartWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5930A7A3229C20DF00221653 /* SmartWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5930A81C22BDF00D00221653 /* Images */,
+				5930A7B6229C25E500221653 /* Classes */,
+				5930A7A4229C20DF00221653 /* AppDelegate.swift */,
+				5930A7AB229C20E100221653 /* Assets.xcassets */,
+				5930A7AD229C20E100221653 /* LaunchScreen.storyboard */,
+				5930A7B0229C20E100221653 /* Info.plist */,
+			);
+			path = SmartWatch;
+			sourceTree = "<group>";
+		};
+		5930A7B6229C25E500221653 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5930A84322C110D000221653 /* Contants */,
+				5930A84022C10FC100221653 /* Colors */,
+				5930A83C22C108CE00221653 /* Bases */,
+				5930A82D22BE054D00221653 /* ZCTools */,
+				5930A82822BE02D100221653 /* Publics */,
+				5930A7C6229C2B6B00221653 /* Thirty */,
+				5930A7BE229C2A1700221653 /* Login */,
+				5930A7BD229C276100221653 /* Mine */,
+				5930A7BC229C275B00221653 /* Sport */,
+				5930A7BA229C274700221653 /* Main */,
+				5930A7B7229C261200221653 /* ContainerControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5930A7B7229C261200221653 /* ContainerControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5930A7B8229C266200221653 /* SWTTabBarController.swift */,
+			);
+			path = ContainerControllers;
+			sourceTree = "<group>";
+		};
+		5930A7BA229C274700221653 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5930A7BC229C275B00221653 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		5930A7BD229C276100221653 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				5930A82322BDF23800221653 /* Models */,
+				5930A81822BDEC1300221653 /* Views */,
+				5930A81522BDEA7C00221653 /* Controllers */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		5930A7BE229C2A1700221653 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5930A7C3229C2A9900221653 /* Models */,
+				5930A7C2229C2A3A00221653 /* ViewModels */,
+				5930A7C1229C2A3200221653 /* Views */,
+				5930A7BF229C2A2200221653 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5930A7BF229C2A2200221653 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5930A7C4229C2AC300221653 /* SWTLoginController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5930A7C1229C2A3200221653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5930A7C2229C2A3A00221653 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5930A7C3229C2A9900221653 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5930A7C6229C2B6B00221653 /* Thirty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirty;
+			sourceTree = "<group>";
+		};
+		5930A81522BDEA7C00221653 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5930A84F22C11C5E00221653 /* MyDevice */,
+				5930A84C22C11AB400221653 /* Goals */,
+				5930A81622BDEAA100221653 /* SWTMineViewController.swift */,
+				5930A84622C112C100221653 /* AppSettings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5930A81822BDEC1300221653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5930A81922BDEC1B00221653 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5930A81922BDEC1B00221653 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5930A81A22BDEC3B00221653 /* SWTMineCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5930A81C22BDF00D00221653 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5930A81D22BDF01F00221653 /* tableview_arrow2x.png */,
+				5930A81E22BDF01F00221653 /* tableview_arrow.png */,
+				5930A81F22BDF01F00221653 /* tableview_arrow@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5930A82322BDF23800221653 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5930A82422BDF25100221653 /* SWTMineCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5930A82822BE02D100221653 /* Publics */ = {
+			isa = PBXGroup;
+			children = (
+				5930A82922BE02FB00221653 /* Cells */,
+			);
+			path = Publics;
+			sourceTree = "<group>";
+		};
+		5930A82922BE02FB00221653 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5930A82A22BE031E00221653 /* SWTSettingTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5930A82D22BE054D00221653 /* ZCTools */ = {
+			isa = PBXGroup;
+			children = (
+				5930A83022BE0EFD00221653 /* ZCCommonExtension */,
+				5930A82E22BE057300221653 /* ZCCacheManager.swift */,
+			);
+			path = ZCTools;
+			sourceTree = "<group>";
+		};
+		5930A83022BE0EFD00221653 /* ZCCommonExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5930A83122BE0EFD00221653 /* ZCNSObject+Dispatch.swift */,
+				5930A83222BE0EFD00221653 /* ZCUIColor+Extension.swift */,
+				5930A83322BE0EFD00221653 /* ZCNSString+Attribute.swift */,
+				5930A83422BE0EFD00221653 /* ZCNumber+Change.swift */,
+			);
+			path = ZCCommonExtension;
+			sourceTree = "<group>";
+		};
+		5930A83C22C108CE00221653 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				5930A83D22C108DA00221653 /* Controllers */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		5930A83D22C108DA00221653 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5930A83E22C1090000221653 /* SWTBaseSettingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5930A84022C10FC100221653 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				5930A84122C10FE100221653 /* SWTAppCommonColor.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		5930A84322C110D000221653 /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				5930A84422C110F800221653 /* SWTAppCommonConstant.swift */,
+				5930A84922C1157C00221653 /* SWTAppInfo.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		5930A84622C112C100221653 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				5930A82622BE011800221653 /* SWTSettingViewController.swift */,
+				5930A83922C108A800221653 /* SWTUnitSettingController.swift */,
+				5930A84722C112FE00221653 /* SWTAboutUsController.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		5930A84C22C11AB400221653 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				5930A84D22C11AD700221653 /* SWTGoalSettingController.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		5930A84F22C11C5E00221653 /* MyDevice */ = {
+			isa = PBXGroup;
+			children = (
+				5930A85022C11C7200221653 /* Controllers */,
+			);
+			path = MyDevice;
+			sourceTree = "<group>";
+		};
+		5930A85022C11C7200221653 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5930A85122C11C9800221653 /* SWTSearchDeviceController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5AF54F2B0D78C7C0E7E27538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7887653AA000D1AE0FA1B072 /* Pods-SmartWatch.debug.xcconfig */,
+				463152CCEDFF51ED11182DB0 /* Pods-SmartWatch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE76A04DE0309758E2BFE3A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC2E12A70DD142A633E3D2A /* Pods_SmartWatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5930A7A0229C20DF00221653 /* SmartWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5930A7B3229C20E100221653 /* Build configuration list for PBXNativeTarget "SmartWatch" */;
+			buildPhases = (
+				A83AD2A3FCBC40982468873C /* [CP] Check Pods Manifest.lock */,
+				5930A79D229C20DF00221653 /* Sources */,
+				5930A79E229C20DF00221653 /* Frameworks */,
+				5930A79F229C20DF00221653 /* Resources */,
+				8E75E93C0D7C45A6CA327F2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartWatch;
+			productName = SmartWatch;
+			productReference = 5930A7A1229C20DF00221653 /* SmartWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5930A799229C20DF00221653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SWT;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "张冲";
+				TargetAttributes = {
+					5930A7A0229C20DF00221653 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5930A79C229C20DF00221653 /* Build configuration list for PBXProject "SmartWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5930A798229C20DF00221653;
+			productRefGroup = 5930A7A2229C20DF00221653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5930A7A0229C20DF00221653 /* SmartWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5930A79F229C20DF00221653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5930A82022BDF01F00221653 /* tableview_arrow2x.png in Resources */,
+				5930A7AF229C20E100221653 /* LaunchScreen.storyboard in Resources */,
+				5930A7AC229C20E100221653 /* Assets.xcassets in Resources */,
+				5930A82222BDF01F00221653 /* tableview_arrow@3x.png in Resources */,
+				5930A82122BDF01F00221653 /* tableview_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E75E93C0D7C45A6CA327F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartWatch/Pods-SmartWatch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartWatch/Pods-SmartWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83AD2A3FCBC40982468873C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5930A79D229C20DF00221653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5930A81722BDEAA100221653 /* SWTMineViewController.swift in Sources */,
+				5930A82722BE011800221653 /* SWTSettingViewController.swift in Sources */,
+				5930A85222C11C9800221653 /* SWTSearchDeviceController.swift in Sources */,
+				5930A82F22BE057300221653 /* ZCCacheManager.swift in Sources */,
+				5930A83F22C1090000221653 /* SWTBaseSettingController.swift in Sources */,
+				5930A7A5229C20DF00221653 /* AppDelegate.swift in Sources */,
+				5930A7B9229C266200221653 /* SWTTabBarController.swift in Sources */,
+				5930A83722BE0EFD00221653 /* ZCNSString+Attribute.swift in Sources */,
+				5930A7C5229C2AC300221653 /* SWTLoginController.swift in Sources */,
+				5930A84E22C11AD700221653 /* SWTGoalSettingController.swift in Sources */,
+				5930A84A22C1157C00221653 /* SWTAppInfo.swift in Sources */,
+				5930A83522BE0EFD00221653 /* ZCNSObject+Dispatch.swift in Sources */,
+				5930A84222C10FE100221653 /* SWTAppCommonColor.swift in Sources */,
+				5930A83822BE0EFD00221653 /* ZCNumber+Change.swift in Sources */,
+				5930A84522C110F800221653 /* SWTAppCommonConstant.swift in Sources */,
+				5930A83A22C108A800221653 /* SWTUnitSettingController.swift in Sources */,
+				5930A81B22BDEC3B00221653 /* SWTMineCell.swift in Sources */,
+				5930A82522BDF25100221653 /* SWTMineCellModel.swift in Sources */,
+				5930A82B22BE031E00221653 /* SWTSettingTableViewCell.swift in Sources */,
+				5930A84822C112FE00221653 /* SWTAboutUsController.swift in Sources */,
+				5930A83622BE0EFD00221653 /* ZCUIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5930A7AD229C20E100221653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5930A7AE229C20E100221653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5930A7B1229C20E100221653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5930A7B2229C20E100221653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5930A7B4229C20E100221653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7887653AA000D1AE0FA1B072 /* Pods-SmartWatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chong.SmartWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5930A7B5229C20E100221653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463152CCEDFF51ED11182DB0 /* Pods-SmartWatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chong.SmartWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5930A79C229C20DF00221653 /* Build configuration list for PBXProject "SmartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5930A7B1229C20E100221653 /* Debug */,
+				5930A7B2229C20E100221653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5930A7B3229C20E100221653 /* Build configuration list for PBXNativeTarget "SmartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5930A7B4229C20E100221653 /* Debug */,
+				5930A7B5229C20E100221653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5930A799229C20DF00221653 /* Project object */;
+}

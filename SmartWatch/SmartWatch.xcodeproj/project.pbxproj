@@ -33,6 +33,147 @@
 		5930A84A22C1157C00221653 /* SWTAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84922C1157C00221653 /* SWTAppInfo.swift */; };
 		5930A84E22C11AD700221653 /* SWTGoalSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A84D22C11AD700221653 /* SWTGoalSettingController.swift */; };
 		5930A85222C11C9800221653 /* SWTSearchDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A85122C11C9800221653 /* SWTSearchDeviceController.swift */; };
+		5930A85422C3B0D700221653 /* SWTMyDeviceConnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A85322C3B0D700221653 /* SWTMyDeviceConnectController.swift */; };
+		5930A85722C3B2AA00221653 /* SWTMyDeviceHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A85622C3B2AA00221653 /* SWTMyDeviceHeaderView.swift */; };
+		5930A8E122CA47E400221653 /* v24微信-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85922CA47E400221653 /* v24微信-按下@3x.png */; };
+		5930A8E222CA47E400221653 /* v25蓝牙图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85A22CA47E400221653 /* v25蓝牙图@3x.png */; };
+		5930A8E322CA47E400221653 /* v1返回-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85B22CA47E400221653 /* v1返回-常态@3x.png */; };
+		5930A8E422CA47E400221653 /* v33最小化-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85C22CA47E400221653 /* v33最小化-常态@3x.png */; };
+		5930A8E522CA47E400221653 /* v1签到图标-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85D22CA47E400221653 /* v1签到图标-按下@3x.png */; };
+		5930A8E622CA47E400221653 /* v25设备图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85E22CA47E400221653 /* v25设备图@3x.png */; };
+		5930A8E722CA47E400221653 /* v28第三方消息推送@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A85F22CA47E400221653 /* v28第三方消息推送@3x.png */; };
+		5930A8E822CA47E400221653 /* v29连接底图-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86022CA47E400221653 /* v29连接底图-常态@2x.png */; };
+		5930A8E922CA47E400221653 /* v1运动-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86122CA47E400221653 /* v1运动-按下@2x.png */; };
+		5930A8EA22CA47E400221653 /* v1前进图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86222CA47E400221653 /* v1前进图标@3x.png */; };
+		5930A8EB22CA47E400221653 /* v24下载-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86322CA47E400221653 /* v24下载-按下@2x.png */; };
+		5930A8EC22CA47E400221653 /* v28设备图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86422CA47E400221653 /* v28设备图@3x.png */; };
+		5930A8ED22CA47E400221653 /* v32按钮-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86522CA47E400221653 /* v32按钮-常态@2x.png */; };
+		5930A8EE22CA47E400221653 /* v23立即签到按钮-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86622CA47E400221653 /* v23立即签到按钮-常态@2x.png */; };
+		5930A8EF22CA47E400221653 /* v24关闭-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86722CA47E400221653 /* v24关闭-常态@2x.png */; };
+		5930A8F022CA47E400221653 /* v24关闭-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86822CA47E400221653 /* v24关闭-常态@3x.png */; };
+		5930A8F122CA47E400221653 /* v23立即签到按钮-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86922CA47E400221653 /* v23立即签到按钮-常态@3x.png */; };
+		5930A8F222CA47E400221653 /* v32按钮-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86A22CA47E400221653 /* v32按钮-常态@3x.png */; };
+		5930A8F322CA47E400221653 /* v28设备图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86B22CA47E400221653 /* v28设备图@2x.png */; };
+		5930A8F422CA47E400221653 /* v24下载-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86C22CA47E400221653 /* v24下载-按下@3x.png */; };
+		5930A8F522CA47E400221653 /* v1前进图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86D22CA47E400221653 /* v1前进图标@2x.png */; };
+		5930A8F622CA47E400221653 /* v1运动-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86E22CA47E400221653 /* v1运动-按下@3x.png */; };
+		5930A8F722CA47E400221653 /* v29连接底图-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A86F22CA47E400221653 /* v29连接底图-常态@3x.png */; };
+		5930A8F822CA47E400221653 /* v28第三方消息推送@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87022CA47E400221653 /* v28第三方消息推送@2x.png */; };
+		5930A8F922CA47E400221653 /* v1签到图标-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87122CA47E400221653 /* v1签到图标-按下@2x.png */; };
+		5930A8FA22CA47E400221653 /* v25设备图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87222CA47E400221653 /* v25设备图@2x.png */; };
+		5930A8FB22CA47E400221653 /* v1返回-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87322CA47E400221653 /* v1返回-常态@2x.png */; };
+		5930A8FC22CA47E400221653 /* v33最小化-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87422CA47E400221653 /* v33最小化-常态@2x.png */; };
+		5930A8FD22CA47E400221653 /* v24微信-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87522CA47E400221653 /* v24微信-按下@2x.png */; };
+		5930A8FE22CA47E400221653 /* v25蓝牙图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87622CA47E400221653 /* v25蓝牙图@2x.png */; };
+		5930A8FF22CA47E400221653 /* v1签到前进-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87722CA47E400221653 /* v1签到前进-按下@3x.png */; };
+		5930A90022CA47E400221653 /* v1我的-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87822CA47E400221653 /* v1我的-常态@3x.png */; };
+		5930A90122CA47E400221653 /* v1签到底图-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87922CA47E400221653 /* v1签到底图-常态@2x.png */; };
+		5930A90222CA47E400221653 /* v28免打扰@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87A22CA47E400221653 /* v28免打扰@2x.png */; };
+		5930A90322CA47E400221653 /* v23分享底板@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87B22CA47E400221653 /* v23分享底板@3x.png */; };
+		5930A90422CA47E400221653 /* v51返回-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87C22CA47E400221653 /* v51返回-按下@3x.png */; };
+		5930A90522CA47E400221653 /* v1我的设备@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87D22CA47E400221653 /* v1我的设备@3x.png */; };
+		5930A90622CA47E400221653 /* v28闹钟提醒@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87E22CA47E400221653 /* v28闹钟提醒@3x.png */; };
+		5930A90722CA47E400221653 /* v33拍照-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A87F22CA47E400221653 /* v33拍照-常态@2x.png */; };
+		5930A90822CA47E400221653 /* v1设置-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88022CA47E400221653 /* v1设置-常态@2x.png */; };
+		5930A90922CA47E400221653 /* v28日程提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88122CA47E400221653 /* v28日程提醒@2x.png */; };
+		5930A90A22CA47E400221653 /* v24签到图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88222CA47E400221653 /* v24签到图标@2x.png */; };
+		5930A90B22CA47E400221653 /* v28查找手环@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88322CA47E400221653 /* v28查找手环@2x.png */; };
+		5930A90C22CA47E400221653 /* v24朋友圈-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88422CA47E400221653 /* v24朋友圈-常态@2x.png */; };
+		5930A90D22CA47E400221653 /* v1推荐好友@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88522CA47E400221653 /* v1推荐好友@2x.png */; };
+		5930A90E22CA47E400221653 /* v1签到图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88622CA47E400221653 /* v1签到图@2x.png */; };
+		5930A90F22CA47E400221653 /* v1签到图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88722CA47E400221653 /* v1签到图@3x.png */; };
+		5930A91022CA47E400221653 /* v24朋友圈-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88822CA47E400221653 /* v24朋友圈-常态@3x.png */; };
+		5930A91122CA47E400221653 /* v1推荐好友@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88922CA47E400221653 /* v1推荐好友@3x.png */; };
+		5930A91222CA47E400221653 /* v28查找手环@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88A22CA47E400221653 /* v28查找手环@3x.png */; };
+		5930A91322CA47E400221653 /* v24签到图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88B22CA47E400221653 /* v24签到图标@3x.png */; };
+		5930A91422CA47E400221653 /* v28日程提醒@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88C22CA47E400221653 /* v28日程提醒@3x.png */; };
+		5930A91522CA47E400221653 /* v33拍照-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88D22CA47E400221653 /* v33拍照-常态@3x.png */; };
+		5930A91622CA47E400221653 /* v1设置-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88E22CA47E400221653 /* v1设置-常态@3x.png */; };
+		5930A91722CA47E400221653 /* v28闹钟提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A88F22CA47E400221653 /* v28闹钟提醒@2x.png */; };
+		5930A91822CA47E400221653 /* v1我的设备@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89022CA47E400221653 /* v1我的设备@2x.png */; };
+		5930A91922CA47E400221653 /* v51返回-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89122CA47E400221653 /* v51返回-按下@2x.png */; };
+		5930A91A22CA47E400221653 /* v28免打扰@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89222CA47E400221653 /* v28免打扰@3x.png */; };
+		5930A91B22CA47E400221653 /* v23分享底板@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89322CA47E400221653 /* v23分享底板@2x.png */; };
+		5930A91C22CA47E400221653 /* v1我的-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89422CA47E400221653 /* v1我的-常态@2x.png */; };
+		5930A91D22CA47E400221653 /* v1签到底图-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89522CA47E400221653 /* v1签到底图-常态@3x.png */; };
+		5930A91E22CA47E400221653 /* v1签到前进-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89622CA47E400221653 /* v1签到前进-按下@2x.png */; };
+		5930A91F22CA47E400221653 /* v25小圆点@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89722CA47E400221653 /* v25小圆点@3x.png */; };
+		5930A92022CA47E400221653 /* v24微信-按下@2x(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89822CA47E400221653 /* v24微信-按下@2x(1).png */; };
+		5930A92122CA47E400221653 /* v24朋友圈-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89922CA47E400221653 /* v24朋友圈-按下@2x.png */; };
+		5930A92222CA47E400221653 /* v28远程音乐@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89A22CA47E400221653 /* v28远程音乐@3x.png */; };
+		5930A92322CA47E400221653 /* v35为空图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89B22CA47E400221653 /* v35为空图@3x.png */; };
+		5930A92422CA47E400221653 /* v24微信-常态@2x(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89C22CA47E400221653 /* v24微信-常态@2x(1).png */; };
+		5930A92522CA47E400221653 /* v1设置-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89D22CA47E400221653 /* v1设置-按下@2x.png */; };
+		5930A92622CA47E400221653 /* v33拍照-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89E22CA47E400221653 /* v33拍照-按下@2x.png */; };
+		5930A92722CA47E400221653 /* v1设定目标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A89F22CA47E400221653 /* v1设定目标@2x.png */; };
+		5930A92822CA47E400221653 /* v28远程相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A022CA47E400221653 /* v28远程相机@2x.png */; };
+		5930A92922CA47E400221653 /* v28健康提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A122CA47E400221653 /* v28健康提醒@2x.png */; };
+		5930A92A22CA47E400221653 /* v1签到前进-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A222CA47E400221653 /* v1签到前进-常态@3x.png */; };
+		5930A92B22CA47E500221653 /* v28来电提醒@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A322CA47E400221653 /* v28来电提醒@3x.png */; };
+		5930A92C22CA47E500221653 /* v1我的-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A422CA47E400221653 /* v1我的-按下@3x.png */; };
+		5930A92D22CA47E500221653 /* v1签到底图-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A522CA47E400221653 /* v1签到底图-按下@2x.png */; };
+		5930A92E22CA47E500221653 /* v33翻转相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A622CA47E400221653 /* v33翻转相机@2x.png */; };
+		5930A92F22CA47E500221653 /* v29刷新@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A722CA47E400221653 /* v29刷新@3x.png */; };
+		5930A93022CA47E500221653 /* v51返回-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A822CA47E400221653 /* v51返回-常态@3x.png */; };
+		5930A93122CA47E500221653 /* v28短信提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8A922CA47E400221653 /* v28短信提醒@2x.png */; };
+		5930A93222CA47E500221653 /* v28短信提醒@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8AA22CA47E400221653 /* v28短信提醒@3x.png */; };
+		5930A93322CA47E500221653 /* v33翻转相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8AB22CA47E400221653 /* v33翻转相机@3x.png */; };
+		5930A93422CA47E500221653 /* v29刷新@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8AC22CA47E400221653 /* v29刷新@2x.png */; };
+		5930A93522CA47E500221653 /* v51返回-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8AD22CA47E400221653 /* v51返回-常态@2x.png */; };
+		5930A93622CA47E500221653 /* v1我的-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8AE22CA47E400221653 /* v1我的-按下@2x.png */; };
+		5930A93722CA47E500221653 /* v1签到底图-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8AF22CA47E400221653 /* v1签到底图-按下@3x.png */; };
+		5930A93822CA47E500221653 /* v28来电提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B022CA47E400221653 /* v28来电提醒@2x.png */; };
+		5930A93922CA47E500221653 /* v28健康提醒@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B122CA47E400221653 /* v28健康提醒@3x.png */; };
+		5930A93A22CA47E500221653 /* v1签到前进-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B222CA47E400221653 /* v1签到前进-常态@2x.png */; };
+		5930A93B22CA47E500221653 /* v28远程相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B322CA47E400221653 /* v28远程相机@3x.png */; };
+		5930A93C22CA47E500221653 /* v1设定目标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B422CA47E400221653 /* v1设定目标@3x.png */; };
+		5930A93D22CA47E500221653 /* v1设置-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B522CA47E400221653 /* v1设置-按下@3x.png */; };
+		5930A93E22CA47E500221653 /* v33拍照-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B622CA47E400221653 /* v33拍照-按下@3x.png */; };
+		5930A93F22CA47E500221653 /* v35为空图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B722CA47E400221653 /* v35为空图@2x.png */; };
+		5930A94022CA47E500221653 /* v28远程音乐@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B822CA47E400221653 /* v28远程音乐@2x.png */; };
+		5930A94122CA47E500221653 /* v24微信-按下@3x(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8B922CA47E400221653 /* v24微信-按下@3x(1).png */; };
+		5930A94222CA47E500221653 /* v24朋友圈-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8BA22CA47E400221653 /* v24朋友圈-按下@3x.png */; };
+		5930A94322CA47E500221653 /* v25小圆点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8BB22CA47E400221653 /* v25小圆点@2x.png */; };
+		5930A94422CA47E500221653 /* v24微信-常态@3x(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8BC22CA47E400221653 /* v24微信-常态@3x(1).png */; };
+		5930A94522CA47E500221653 /* v23立即签到按钮-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8BD22CA47E400221653 /* v23立即签到按钮-按下@2x.png */; };
+		5930A94622CA47E500221653 /* v1添加设备@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8BE22CA47E400221653 /* v1添加设备@2x.png */; };
+		5930A94722CA47E500221653 /* v32按钮-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8BF22CA47E400221653 /* v32按钮-按下@2x.png */; };
+		5930A94822CA47E500221653 /* v24关闭-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C022CA47E400221653 /* v24关闭-按下@2x.png */; };
+		5930A94922CA47E500221653 /* v32设备图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C122CA47E400221653 /* v32设备图@3x.png */; };
+		5930A94A22CA47E500221653 /* v1身体数据@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C222CA47E400221653 /* v1身体数据@2x.png */; };
+		5930A94B22CA47E500221653 /* v51为空图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C322CA47E400221653 /* v51为空图@2x.png */; };
+		5930A94C22CA47E500221653 /* v1数据-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C422CA47E400221653 /* v1数据-常态@3x.png */; };
+		5930A94D22CA47E500221653 /* v1运动-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C522CA47E400221653 /* v1运动-常态@2x.png */; };
+		5930A94E22CA47E500221653 /* v24下载-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C622CA47E400221653 /* v24下载-常态@2x.png */; };
+		5930A94F22CA47E500221653 /* v1返回-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C722CA47E400221653 /* v1返回-按下@3x.png */; };
+		5930A95022CA47E500221653 /* v33最小化-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C822CA47E400221653 /* v33最小化-按下@3x.png */; };
+		5930A95122CA47E500221653 /* v24微信-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8C922CA47E400221653 /* v24微信-常态@3x.png */; };
+		5930A95222CA47E500221653 /* v1签到图标-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8CA22CA47E400221653 /* v1签到图标-常态@3x.png */; };
+		5930A95322CA47E500221653 /* v28设备底图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8CB22CA47E400221653 /* v28设备底图@3x.png */; };
+		5930A95422CA47E500221653 /* v1我的收藏@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8CC22CA47E400221653 /* v1我的收藏@3x.png */; };
+		5930A95522CA47E500221653 /* v1数据-常态@3x(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8CD22CA47E400221653 /* v1数据-常态@3x(1).png */; };
+		5930A95622CA47E500221653 /* v29连接底图-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8CE22CA47E400221653 /* v29连接底图-按下@2x.png */; };
+		5930A95722CA47E500221653 /* v29连接底图-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8CF22CA47E400221653 /* v29连接底图-按下@3x.png */; };
+		5930A95822CA47E500221653 /* v1签到图标-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D022CA47E400221653 /* v1签到图标-常态@2x.png */; };
+		5930A95922CA47E500221653 /* v28设备底图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D122CA47E400221653 /* v28设备底图@2x.png */; };
+		5930A95A22CA47E500221653 /* v1我的收藏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D222CA47E400221653 /* v1我的收藏@2x.png */; };
+		5930A95B22CA47E500221653 /* v24微信-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D322CA47E400221653 /* v24微信-常态@2x.png */; };
+		5930A95C22CA47E500221653 /* v1返回-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D422CA47E400221653 /* v1返回-按下@2x.png */; };
+		5930A95D22CA47E500221653 /* v33最小化-按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D522CA47E400221653 /* v33最小化-按下@2x.png */; };
+		5930A95E22CA47E500221653 /* v24下载-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D622CA47E400221653 /* v24下载-常态@3x.png */; };
+		5930A95F22CA47E500221653 /* v1运动-常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D722CA47E400221653 /* v1运动-常态@3x.png */; };
+		5930A96022CA47E500221653 /* v1数据-常态@2x(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D822CA47E400221653 /* v1数据-常态@2x(1).png */; };
+		5930A96122CA47E500221653 /* v1数据-常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8D922CA47E400221653 /* v1数据-常态@2x.png */; };
+		5930A96222CA47E500221653 /* v51为空图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8DA22CA47E400221653 /* v51为空图@3x.png */; };
+		5930A96322CA47E500221653 /* v1身体数据@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8DB22CA47E400221653 /* v1身体数据@3x.png */; };
+		5930A96422CA47E500221653 /* v32设备图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8DC22CA47E400221653 /* v32设备图@2x.png */; };
+		5930A96522CA47E500221653 /* v24关闭-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8DD22CA47E400221653 /* v24关闭-按下@3x.png */; };
+		5930A96622CA47E500221653 /* v32按钮-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8DE22CA47E400221653 /* v32按钮-按下@3x.png */; };
+		5930A96722CA47E500221653 /* v23立即签到按钮-按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8DF22CA47E400221653 /* v23立即签到按钮-按下@3x.png */; };
+		5930A96822CA47E500221653 /* v1添加设备@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5930A8E022CA47E400221653 /* v1添加设备@3x.png */; };
+		5930A96A22CA492800221653 /* SWTMyDeviceCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A96922CA492800221653 /* SWTMyDeviceCellModel.swift */; };
+		5930A96D22CA4DF700221653 /* SWTBtnFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930A96C22CA4DF700221653 /* SWTBtnFactory.swift */; };
+		5930A97022CA51F900221653 /* ZCBLESDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5930A96F22CA51F900221653 /* ZCBLESDK.framework */; };
 		F52DF4E1C12AD318619FE9FE /* Pods_SmartWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC2E12A70DD142A633E3D2A /* Pods_SmartWatch.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +207,148 @@
 		5930A84922C1157C00221653 /* SWTAppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTAppInfo.swift; sourceTree = "<group>"; };
 		5930A84D22C11AD700221653 /* SWTGoalSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTGoalSettingController.swift; sourceTree = "<group>"; };
 		5930A85122C11C9800221653 /* SWTSearchDeviceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTSearchDeviceController.swift; sourceTree = "<group>"; };
+		5930A85322C3B0D700221653 /* SWTMyDeviceConnectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTMyDeviceConnectController.swift; sourceTree = "<group>"; };
+		5930A85622C3B2AA00221653 /* SWTMyDeviceHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTMyDeviceHeaderView.swift; sourceTree = "<group>"; };
+		5930A85922CA47E400221653 /* v24微信-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-按下@3x.png"; sourceTree = "<group>"; };
+		5930A85A22CA47E400221653 /* v25蓝牙图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v25蓝牙图@3x.png"; sourceTree = "<group>"; };
+		5930A85B22CA47E400221653 /* v1返回-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1返回-常态@3x.png"; sourceTree = "<group>"; };
+		5930A85C22CA47E400221653 /* v33最小化-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33最小化-常态@3x.png"; sourceTree = "<group>"; };
+		5930A85D22CA47E400221653 /* v1签到图标-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到图标-按下@3x.png"; sourceTree = "<group>"; };
+		5930A85E22CA47E400221653 /* v25设备图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v25设备图@3x.png"; sourceTree = "<group>"; };
+		5930A85F22CA47E400221653 /* v28第三方消息推送@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28第三方消息推送@3x.png"; sourceTree = "<group>"; };
+		5930A86022CA47E400221653 /* v29连接底图-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v29连接底图-常态@2x.png"; sourceTree = "<group>"; };
+		5930A86122CA47E400221653 /* v1运动-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1运动-按下@2x.png"; sourceTree = "<group>"; };
+		5930A86222CA47E400221653 /* v1前进图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1前进图标@3x.png"; sourceTree = "<group>"; };
+		5930A86322CA47E400221653 /* v24下载-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24下载-按下@2x.png"; sourceTree = "<group>"; };
+		5930A86422CA47E400221653 /* v28设备图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28设备图@3x.png"; sourceTree = "<group>"; };
+		5930A86522CA47E400221653 /* v32按钮-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v32按钮-常态@2x.png"; sourceTree = "<group>"; };
+		5930A86622CA47E400221653 /* v23立即签到按钮-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v23立即签到按钮-常态@2x.png"; sourceTree = "<group>"; };
+		5930A86722CA47E400221653 /* v24关闭-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24关闭-常态@2x.png"; sourceTree = "<group>"; };
+		5930A86822CA47E400221653 /* v24关闭-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24关闭-常态@3x.png"; sourceTree = "<group>"; };
+		5930A86922CA47E400221653 /* v23立即签到按钮-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v23立即签到按钮-常态@3x.png"; sourceTree = "<group>"; };
+		5930A86A22CA47E400221653 /* v32按钮-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v32按钮-常态@3x.png"; sourceTree = "<group>"; };
+		5930A86B22CA47E400221653 /* v28设备图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28设备图@2x.png"; sourceTree = "<group>"; };
+		5930A86C22CA47E400221653 /* v24下载-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24下载-按下@3x.png"; sourceTree = "<group>"; };
+		5930A86D22CA47E400221653 /* v1前进图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1前进图标@2x.png"; sourceTree = "<group>"; };
+		5930A86E22CA47E400221653 /* v1运动-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1运动-按下@3x.png"; sourceTree = "<group>"; };
+		5930A86F22CA47E400221653 /* v29连接底图-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v29连接底图-常态@3x.png"; sourceTree = "<group>"; };
+		5930A87022CA47E400221653 /* v28第三方消息推送@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28第三方消息推送@2x.png"; sourceTree = "<group>"; };
+		5930A87122CA47E400221653 /* v1签到图标-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到图标-按下@2x.png"; sourceTree = "<group>"; };
+		5930A87222CA47E400221653 /* v25设备图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v25设备图@2x.png"; sourceTree = "<group>"; };
+		5930A87322CA47E400221653 /* v1返回-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1返回-常态@2x.png"; sourceTree = "<group>"; };
+		5930A87422CA47E400221653 /* v33最小化-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33最小化-常态@2x.png"; sourceTree = "<group>"; };
+		5930A87522CA47E400221653 /* v24微信-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-按下@2x.png"; sourceTree = "<group>"; };
+		5930A87622CA47E400221653 /* v25蓝牙图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v25蓝牙图@2x.png"; sourceTree = "<group>"; };
+		5930A87722CA47E400221653 /* v1签到前进-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到前进-按下@3x.png"; sourceTree = "<group>"; };
+		5930A87822CA47E400221653 /* v1我的-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的-常态@3x.png"; sourceTree = "<group>"; };
+		5930A87922CA47E400221653 /* v1签到底图-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到底图-常态@2x.png"; sourceTree = "<group>"; };
+		5930A87A22CA47E400221653 /* v28免打扰@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28免打扰@2x.png"; sourceTree = "<group>"; };
+		5930A87B22CA47E400221653 /* v23分享底板@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v23分享底板@3x.png"; sourceTree = "<group>"; };
+		5930A87C22CA47E400221653 /* v51返回-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v51返回-按下@3x.png"; sourceTree = "<group>"; };
+		5930A87D22CA47E400221653 /* v1我的设备@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的设备@3x.png"; sourceTree = "<group>"; };
+		5930A87E22CA47E400221653 /* v28闹钟提醒@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28闹钟提醒@3x.png"; sourceTree = "<group>"; };
+		5930A87F22CA47E400221653 /* v33拍照-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33拍照-常态@2x.png"; sourceTree = "<group>"; };
+		5930A88022CA47E400221653 /* v1设置-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1设置-常态@2x.png"; sourceTree = "<group>"; };
+		5930A88122CA47E400221653 /* v28日程提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28日程提醒@2x.png"; sourceTree = "<group>"; };
+		5930A88222CA47E400221653 /* v24签到图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24签到图标@2x.png"; sourceTree = "<group>"; };
+		5930A88322CA47E400221653 /* v28查找手环@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28查找手环@2x.png"; sourceTree = "<group>"; };
+		5930A88422CA47E400221653 /* v24朋友圈-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24朋友圈-常态@2x.png"; sourceTree = "<group>"; };
+		5930A88522CA47E400221653 /* v1推荐好友@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1推荐好友@2x.png"; sourceTree = "<group>"; };
+		5930A88622CA47E400221653 /* v1签到图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到图@2x.png"; sourceTree = "<group>"; };
+		5930A88722CA47E400221653 /* v1签到图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到图@3x.png"; sourceTree = "<group>"; };
+		5930A88822CA47E400221653 /* v24朋友圈-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24朋友圈-常态@3x.png"; sourceTree = "<group>"; };
+		5930A88922CA47E400221653 /* v1推荐好友@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1推荐好友@3x.png"; sourceTree = "<group>"; };
+		5930A88A22CA47E400221653 /* v28查找手环@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28查找手环@3x.png"; sourceTree = "<group>"; };
+		5930A88B22CA47E400221653 /* v24签到图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24签到图标@3x.png"; sourceTree = "<group>"; };
+		5930A88C22CA47E400221653 /* v28日程提醒@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28日程提醒@3x.png"; sourceTree = "<group>"; };
+		5930A88D22CA47E400221653 /* v33拍照-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33拍照-常态@3x.png"; sourceTree = "<group>"; };
+		5930A88E22CA47E400221653 /* v1设置-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1设置-常态@3x.png"; sourceTree = "<group>"; };
+		5930A88F22CA47E400221653 /* v28闹钟提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28闹钟提醒@2x.png"; sourceTree = "<group>"; };
+		5930A89022CA47E400221653 /* v1我的设备@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的设备@2x.png"; sourceTree = "<group>"; };
+		5930A89122CA47E400221653 /* v51返回-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v51返回-按下@2x.png"; sourceTree = "<group>"; };
+		5930A89222CA47E400221653 /* v28免打扰@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28免打扰@3x.png"; sourceTree = "<group>"; };
+		5930A89322CA47E400221653 /* v23分享底板@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v23分享底板@2x.png"; sourceTree = "<group>"; };
+		5930A89422CA47E400221653 /* v1我的-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的-常态@2x.png"; sourceTree = "<group>"; };
+		5930A89522CA47E400221653 /* v1签到底图-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到底图-常态@3x.png"; sourceTree = "<group>"; };
+		5930A89622CA47E400221653 /* v1签到前进-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到前进-按下@2x.png"; sourceTree = "<group>"; };
+		5930A89722CA47E400221653 /* v25小圆点@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v25小圆点@3x.png"; sourceTree = "<group>"; };
+		5930A89822CA47E400221653 /* v24微信-按下@2x(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-按下@2x(1).png"; sourceTree = "<group>"; };
+		5930A89922CA47E400221653 /* v24朋友圈-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24朋友圈-按下@2x.png"; sourceTree = "<group>"; };
+		5930A89A22CA47E400221653 /* v28远程音乐@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28远程音乐@3x.png"; sourceTree = "<group>"; };
+		5930A89B22CA47E400221653 /* v35为空图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v35为空图@3x.png"; sourceTree = "<group>"; };
+		5930A89C22CA47E400221653 /* v24微信-常态@2x(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-常态@2x(1).png"; sourceTree = "<group>"; };
+		5930A89D22CA47E400221653 /* v1设置-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1设置-按下@2x.png"; sourceTree = "<group>"; };
+		5930A89E22CA47E400221653 /* v33拍照-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33拍照-按下@2x.png"; sourceTree = "<group>"; };
+		5930A89F22CA47E400221653 /* v1设定目标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1设定目标@2x.png"; sourceTree = "<group>"; };
+		5930A8A022CA47E400221653 /* v28远程相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28远程相机@2x.png"; sourceTree = "<group>"; };
+		5930A8A122CA47E400221653 /* v28健康提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28健康提醒@2x.png"; sourceTree = "<group>"; };
+		5930A8A222CA47E400221653 /* v1签到前进-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到前进-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8A322CA47E400221653 /* v28来电提醒@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28来电提醒@3x.png"; sourceTree = "<group>"; };
+		5930A8A422CA47E400221653 /* v1我的-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8A522CA47E400221653 /* v1签到底图-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到底图-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8A622CA47E400221653 /* v33翻转相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33翻转相机@2x.png"; sourceTree = "<group>"; };
+		5930A8A722CA47E400221653 /* v29刷新@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v29刷新@3x.png"; sourceTree = "<group>"; };
+		5930A8A822CA47E400221653 /* v51返回-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v51返回-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8A922CA47E400221653 /* v28短信提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28短信提醒@2x.png"; sourceTree = "<group>"; };
+		5930A8AA22CA47E400221653 /* v28短信提醒@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28短信提醒@3x.png"; sourceTree = "<group>"; };
+		5930A8AB22CA47E400221653 /* v33翻转相机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33翻转相机@3x.png"; sourceTree = "<group>"; };
+		5930A8AC22CA47E400221653 /* v29刷新@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v29刷新@2x.png"; sourceTree = "<group>"; };
+		5930A8AD22CA47E400221653 /* v51返回-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v51返回-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8AE22CA47E400221653 /* v1我的-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8AF22CA47E400221653 /* v1签到底图-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到底图-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8B022CA47E400221653 /* v28来电提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28来电提醒@2x.png"; sourceTree = "<group>"; };
+		5930A8B122CA47E400221653 /* v28健康提醒@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28健康提醒@3x.png"; sourceTree = "<group>"; };
+		5930A8B222CA47E400221653 /* v1签到前进-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到前进-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8B322CA47E400221653 /* v28远程相机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28远程相机@3x.png"; sourceTree = "<group>"; };
+		5930A8B422CA47E400221653 /* v1设定目标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1设定目标@3x.png"; sourceTree = "<group>"; };
+		5930A8B522CA47E400221653 /* v1设置-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1设置-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8B622CA47E400221653 /* v33拍照-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33拍照-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8B722CA47E400221653 /* v35为空图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v35为空图@2x.png"; sourceTree = "<group>"; };
+		5930A8B822CA47E400221653 /* v28远程音乐@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28远程音乐@2x.png"; sourceTree = "<group>"; };
+		5930A8B922CA47E400221653 /* v24微信-按下@3x(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-按下@3x(1).png"; sourceTree = "<group>"; };
+		5930A8BA22CA47E400221653 /* v24朋友圈-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24朋友圈-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8BB22CA47E400221653 /* v25小圆点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v25小圆点@2x.png"; sourceTree = "<group>"; };
+		5930A8BC22CA47E400221653 /* v24微信-常态@3x(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-常态@3x(1).png"; sourceTree = "<group>"; };
+		5930A8BD22CA47E400221653 /* v23立即签到按钮-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v23立即签到按钮-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8BE22CA47E400221653 /* v1添加设备@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1添加设备@2x.png"; sourceTree = "<group>"; };
+		5930A8BF22CA47E400221653 /* v32按钮-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v32按钮-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8C022CA47E400221653 /* v24关闭-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24关闭-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8C122CA47E400221653 /* v32设备图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v32设备图@3x.png"; sourceTree = "<group>"; };
+		5930A8C222CA47E400221653 /* v1身体数据@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1身体数据@2x.png"; sourceTree = "<group>"; };
+		5930A8C322CA47E400221653 /* v51为空图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v51为空图@2x.png"; sourceTree = "<group>"; };
+		5930A8C422CA47E400221653 /* v1数据-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1数据-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8C522CA47E400221653 /* v1运动-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1运动-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8C622CA47E400221653 /* v24下载-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24下载-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8C722CA47E400221653 /* v1返回-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1返回-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8C822CA47E400221653 /* v33最小化-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33最小化-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8C922CA47E400221653 /* v24微信-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8CA22CA47E400221653 /* v1签到图标-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到图标-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8CB22CA47E400221653 /* v28设备底图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28设备底图@3x.png"; sourceTree = "<group>"; };
+		5930A8CC22CA47E400221653 /* v1我的收藏@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的收藏@3x.png"; sourceTree = "<group>"; };
+		5930A8CD22CA47E400221653 /* v1数据-常态@3x(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1数据-常态@3x(1).png"; sourceTree = "<group>"; };
+		5930A8CE22CA47E400221653 /* v29连接底图-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v29连接底图-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8CF22CA47E400221653 /* v29连接底图-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v29连接底图-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8D022CA47E400221653 /* v1签到图标-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1签到图标-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8D122CA47E400221653 /* v28设备底图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v28设备底图@2x.png"; sourceTree = "<group>"; };
+		5930A8D222CA47E400221653 /* v1我的收藏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1我的收藏@2x.png"; sourceTree = "<group>"; };
+		5930A8D322CA47E400221653 /* v24微信-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24微信-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8D422CA47E400221653 /* v1返回-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1返回-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8D522CA47E400221653 /* v33最小化-按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v33最小化-按下@2x.png"; sourceTree = "<group>"; };
+		5930A8D622CA47E400221653 /* v24下载-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24下载-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8D722CA47E400221653 /* v1运动-常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1运动-常态@3x.png"; sourceTree = "<group>"; };
+		5930A8D822CA47E400221653 /* v1数据-常态@2x(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1数据-常态@2x(1).png"; sourceTree = "<group>"; };
+		5930A8D922CA47E400221653 /* v1数据-常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1数据-常态@2x.png"; sourceTree = "<group>"; };
+		5930A8DA22CA47E400221653 /* v51为空图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v51为空图@3x.png"; sourceTree = "<group>"; };
+		5930A8DB22CA47E400221653 /* v1身体数据@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1身体数据@3x.png"; sourceTree = "<group>"; };
+		5930A8DC22CA47E400221653 /* v32设备图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v32设备图@2x.png"; sourceTree = "<group>"; };
+		5930A8DD22CA47E400221653 /* v24关闭-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v24关闭-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8DE22CA47E400221653 /* v32按钮-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v32按钮-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8DF22CA47E400221653 /* v23立即签到按钮-按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v23立即签到按钮-按下@3x.png"; sourceTree = "<group>"; };
+		5930A8E022CA47E400221653 /* v1添加设备@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1添加设备@3x.png"; sourceTree = "<group>"; };
+		5930A96922CA492800221653 /* SWTMyDeviceCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTMyDeviceCellModel.swift; sourceTree = "<group>"; };
+		5930A96C22CA4DF700221653 /* SWTBtnFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTBtnFactory.swift; sourceTree = "<group>"; };
+		5930A96F22CA51F900221653 /* ZCBLESDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZCBLESDK.framework; sourceTree = "<group>"; };
+		5930A97122CA529500221653 /* SmartWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartWatch.h; sourceTree = "<group>"; };
 		7887653AA000D1AE0FA1B072 /* Pods-SmartWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWatch.debug.xcconfig"; path = "Target Support Files/Pods-SmartWatch/Pods-SmartWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC2E12A70DD142A633E3D2A /* Pods_SmartWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +358,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5930A97022CA51F900221653 /* ZCBLESDK.framework in Frameworks */,
 				F52DF4E1C12AD318619FE9FE /* Pods_SmartWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,9 +387,11 @@
 		5930A7A3229C20DF00221653 /* SmartWatch */ = {
 			isa = PBXGroup;
 			children = (
+				5930A96F22CA51F900221653 /* ZCBLESDK.framework */,
 				5930A81C22BDF00D00221653 /* Images */,
 				5930A7B6229C25E500221653 /* Classes */,
 				5930A7A4229C20DF00221653 /* AppDelegate.swift */,
+				5930A97122CA529500221653 /* SmartWatch.h */,
 				5930A7AB229C20E100221653 /* Assets.xcassets */,
 				5930A7AD229C20E100221653 /* LaunchScreen.storyboard */,
 				5930A7B0229C20E100221653 /* Info.plist */,
@@ -240,6 +526,7 @@
 		5930A81C22BDF00D00221653 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5930A85822CA47E400221653 /* v2个人中心_slices */,
 				5930A81D22BDF01F00221653 /* tableview_arrow2x.png */,
 				5930A81E22BDF01F00221653 /* tableview_arrow.png */,
 				5930A81F22BDF01F00221653 /* tableview_arrow@3x.png */,
@@ -251,6 +538,7 @@
 			isa = PBXGroup;
 			children = (
 				5930A82422BDF25100221653 /* SWTMineCellModel.swift */,
+				5930A96922CA492800221653 /* SWTMyDeviceCellModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,6 +546,7 @@
 		5930A82822BE02D100221653 /* Publics */ = {
 			isa = PBXGroup;
 			children = (
+				5930A96B22CA4DDB00221653 /* Factorys */,
 				5930A82922BE02FB00221653 /* Cells */,
 			);
 			path = Publics;
@@ -345,6 +634,7 @@
 		5930A84F22C11C5E00221653 /* MyDevice */ = {
 			isa = PBXGroup;
 			children = (
+				5930A85522C3B28F00221653 /* Views */,
 				5930A85022C11C7200221653 /* Controllers */,
 			);
 			path = MyDevice;
@@ -354,8 +644,168 @@
 			isa = PBXGroup;
 			children = (
 				5930A85122C11C9800221653 /* SWTSearchDeviceController.swift */,
+				5930A85322C3B0D700221653 /* SWTMyDeviceConnectController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5930A85522C3B28F00221653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5930A85622C3B2AA00221653 /* SWTMyDeviceHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5930A85822CA47E400221653 /* v2个人中心_slices */ = {
+			isa = PBXGroup;
+			children = (
+				5930A85922CA47E400221653 /* v24微信-按下@3x.png */,
+				5930A85A22CA47E400221653 /* v25蓝牙图@3x.png */,
+				5930A85B22CA47E400221653 /* v1返回-常态@3x.png */,
+				5930A85C22CA47E400221653 /* v33最小化-常态@3x.png */,
+				5930A85D22CA47E400221653 /* v1签到图标-按下@3x.png */,
+				5930A85E22CA47E400221653 /* v25设备图@3x.png */,
+				5930A85F22CA47E400221653 /* v28第三方消息推送@3x.png */,
+				5930A86022CA47E400221653 /* v29连接底图-常态@2x.png */,
+				5930A86122CA47E400221653 /* v1运动-按下@2x.png */,
+				5930A86222CA47E400221653 /* v1前进图标@3x.png */,
+				5930A86322CA47E400221653 /* v24下载-按下@2x.png */,
+				5930A86422CA47E400221653 /* v28设备图@3x.png */,
+				5930A86522CA47E400221653 /* v32按钮-常态@2x.png */,
+				5930A86622CA47E400221653 /* v23立即签到按钮-常态@2x.png */,
+				5930A86722CA47E400221653 /* v24关闭-常态@2x.png */,
+				5930A86822CA47E400221653 /* v24关闭-常态@3x.png */,
+				5930A86922CA47E400221653 /* v23立即签到按钮-常态@3x.png */,
+				5930A86A22CA47E400221653 /* v32按钮-常态@3x.png */,
+				5930A86B22CA47E400221653 /* v28设备图@2x.png */,
+				5930A86C22CA47E400221653 /* v24下载-按下@3x.png */,
+				5930A86D22CA47E400221653 /* v1前进图标@2x.png */,
+				5930A86E22CA47E400221653 /* v1运动-按下@3x.png */,
+				5930A86F22CA47E400221653 /* v29连接底图-常态@3x.png */,
+				5930A87022CA47E400221653 /* v28第三方消息推送@2x.png */,
+				5930A87122CA47E400221653 /* v1签到图标-按下@2x.png */,
+				5930A87222CA47E400221653 /* v25设备图@2x.png */,
+				5930A87322CA47E400221653 /* v1返回-常态@2x.png */,
+				5930A87422CA47E400221653 /* v33最小化-常态@2x.png */,
+				5930A87522CA47E400221653 /* v24微信-按下@2x.png */,
+				5930A87622CA47E400221653 /* v25蓝牙图@2x.png */,
+				5930A87722CA47E400221653 /* v1签到前进-按下@3x.png */,
+				5930A87822CA47E400221653 /* v1我的-常态@3x.png */,
+				5930A87922CA47E400221653 /* v1签到底图-常态@2x.png */,
+				5930A87A22CA47E400221653 /* v28免打扰@2x.png */,
+				5930A87B22CA47E400221653 /* v23分享底板@3x.png */,
+				5930A87C22CA47E400221653 /* v51返回-按下@3x.png */,
+				5930A87D22CA47E400221653 /* v1我的设备@3x.png */,
+				5930A87E22CA47E400221653 /* v28闹钟提醒@3x.png */,
+				5930A87F22CA47E400221653 /* v33拍照-常态@2x.png */,
+				5930A88022CA47E400221653 /* v1设置-常态@2x.png */,
+				5930A88122CA47E400221653 /* v28日程提醒@2x.png */,
+				5930A88222CA47E400221653 /* v24签到图标@2x.png */,
+				5930A88322CA47E400221653 /* v28查找手环@2x.png */,
+				5930A88422CA47E400221653 /* v24朋友圈-常态@2x.png */,
+				5930A88522CA47E400221653 /* v1推荐好友@2x.png */,
+				5930A88622CA47E400221653 /* v1签到图@2x.png */,
+				5930A88722CA47E400221653 /* v1签到图@3x.png */,
+				5930A88822CA47E400221653 /* v24朋友圈-常态@3x.png */,
+				5930A88922CA47E400221653 /* v1推荐好友@3x.png */,
+				5930A88A22CA47E400221653 /* v28查找手环@3x.png */,
+				5930A88B22CA47E400221653 /* v24签到图标@3x.png */,
+				5930A88C22CA47E400221653 /* v28日程提醒@3x.png */,
+				5930A88D22CA47E400221653 /* v33拍照-常态@3x.png */,
+				5930A88E22CA47E400221653 /* v1设置-常态@3x.png */,
+				5930A88F22CA47E400221653 /* v28闹钟提醒@2x.png */,
+				5930A89022CA47E400221653 /* v1我的设备@2x.png */,
+				5930A89122CA47E400221653 /* v51返回-按下@2x.png */,
+				5930A89222CA47E400221653 /* v28免打扰@3x.png */,
+				5930A89322CA47E400221653 /* v23分享底板@2x.png */,
+				5930A89422CA47E400221653 /* v1我的-常态@2x.png */,
+				5930A89522CA47E400221653 /* v1签到底图-常态@3x.png */,
+				5930A89622CA47E400221653 /* v1签到前进-按下@2x.png */,
+				5930A89722CA47E400221653 /* v25小圆点@3x.png */,
+				5930A89822CA47E400221653 /* v24微信-按下@2x(1).png */,
+				5930A89922CA47E400221653 /* v24朋友圈-按下@2x.png */,
+				5930A89A22CA47E400221653 /* v28远程音乐@3x.png */,
+				5930A89B22CA47E400221653 /* v35为空图@3x.png */,
+				5930A89C22CA47E400221653 /* v24微信-常态@2x(1).png */,
+				5930A89D22CA47E400221653 /* v1设置-按下@2x.png */,
+				5930A89E22CA47E400221653 /* v33拍照-按下@2x.png */,
+				5930A89F22CA47E400221653 /* v1设定目标@2x.png */,
+				5930A8A022CA47E400221653 /* v28远程相机@2x.png */,
+				5930A8A122CA47E400221653 /* v28健康提醒@2x.png */,
+				5930A8A222CA47E400221653 /* v1签到前进-常态@3x.png */,
+				5930A8A322CA47E400221653 /* v28来电提醒@3x.png */,
+				5930A8A422CA47E400221653 /* v1我的-按下@3x.png */,
+				5930A8A522CA47E400221653 /* v1签到底图-按下@2x.png */,
+				5930A8A622CA47E400221653 /* v33翻转相机@2x.png */,
+				5930A8A722CA47E400221653 /* v29刷新@3x.png */,
+				5930A8A822CA47E400221653 /* v51返回-常态@3x.png */,
+				5930A8A922CA47E400221653 /* v28短信提醒@2x.png */,
+				5930A8AA22CA47E400221653 /* v28短信提醒@3x.png */,
+				5930A8AB22CA47E400221653 /* v33翻转相机@3x.png */,
+				5930A8AC22CA47E400221653 /* v29刷新@2x.png */,
+				5930A8AD22CA47E400221653 /* v51返回-常态@2x.png */,
+				5930A8AE22CA47E400221653 /* v1我的-按下@2x.png */,
+				5930A8AF22CA47E400221653 /* v1签到底图-按下@3x.png */,
+				5930A8B022CA47E400221653 /* v28来电提醒@2x.png */,
+				5930A8B122CA47E400221653 /* v28健康提醒@3x.png */,
+				5930A8B222CA47E400221653 /* v1签到前进-常态@2x.png */,
+				5930A8B322CA47E400221653 /* v28远程相机@3x.png */,
+				5930A8B422CA47E400221653 /* v1设定目标@3x.png */,
+				5930A8B522CA47E400221653 /* v1设置-按下@3x.png */,
+				5930A8B622CA47E400221653 /* v33拍照-按下@3x.png */,
+				5930A8B722CA47E400221653 /* v35为空图@2x.png */,
+				5930A8B822CA47E400221653 /* v28远程音乐@2x.png */,
+				5930A8B922CA47E400221653 /* v24微信-按下@3x(1).png */,
+				5930A8BA22CA47E400221653 /* v24朋友圈-按下@3x.png */,
+				5930A8BB22CA47E400221653 /* v25小圆点@2x.png */,
+				5930A8BC22CA47E400221653 /* v24微信-常态@3x(1).png */,
+				5930A8BD22CA47E400221653 /* v23立即签到按钮-按下@2x.png */,
+				5930A8BE22CA47E400221653 /* v1添加设备@2x.png */,
+				5930A8BF22CA47E400221653 /* v32按钮-按下@2x.png */,
+				5930A8C022CA47E400221653 /* v24关闭-按下@2x.png */,
+				5930A8C122CA47E400221653 /* v32设备图@3x.png */,
+				5930A8C222CA47E400221653 /* v1身体数据@2x.png */,
+				5930A8C322CA47E400221653 /* v51为空图@2x.png */,
+				5930A8C422CA47E400221653 /* v1数据-常态@3x.png */,
+				5930A8C522CA47E400221653 /* v1运动-常态@2x.png */,
+				5930A8C622CA47E400221653 /* v24下载-常态@2x.png */,
+				5930A8C722CA47E400221653 /* v1返回-按下@3x.png */,
+				5930A8C822CA47E400221653 /* v33最小化-按下@3x.png */,
+				5930A8C922CA47E400221653 /* v24微信-常态@3x.png */,
+				5930A8CA22CA47E400221653 /* v1签到图标-常态@3x.png */,
+				5930A8CB22CA47E400221653 /* v28设备底图@3x.png */,
+				5930A8CC22CA47E400221653 /* v1我的收藏@3x.png */,
+				5930A8CD22CA47E400221653 /* v1数据-常态@3x(1).png */,
+				5930A8CE22CA47E400221653 /* v29连接底图-按下@2x.png */,
+				5930A8CF22CA47E400221653 /* v29连接底图-按下@3x.png */,
+				5930A8D022CA47E400221653 /* v1签到图标-常态@2x.png */,
+				5930A8D122CA47E400221653 /* v28设备底图@2x.png */,
+				5930A8D222CA47E400221653 /* v1我的收藏@2x.png */,
+				5930A8D322CA47E400221653 /* v24微信-常态@2x.png */,
+				5930A8D422CA47E400221653 /* v1返回-按下@2x.png */,
+				5930A8D522CA47E400221653 /* v33最小化-按下@2x.png */,
+				5930A8D622CA47E400221653 /* v24下载-常态@3x.png */,
+				5930A8D722CA47E400221653 /* v1运动-常态@3x.png */,
+				5930A8D822CA47E400221653 /* v1数据-常态@2x(1).png */,
+				5930A8D922CA47E400221653 /* v1数据-常态@2x.png */,
+				5930A8DA22CA47E400221653 /* v51为空图@3x.png */,
+				5930A8DB22CA47E400221653 /* v1身体数据@3x.png */,
+				5930A8DC22CA47E400221653 /* v32设备图@2x.png */,
+				5930A8DD22CA47E400221653 /* v24关闭-按下@3x.png */,
+				5930A8DE22CA47E400221653 /* v32按钮-按下@3x.png */,
+				5930A8DF22CA47E400221653 /* v23立即签到按钮-按下@3x.png */,
+				5930A8E022CA47E400221653 /* v1添加设备@3x.png */,
+			);
+			path = "v2个人中心_slices";
+			sourceTree = "<group>";
+		};
+		5930A96B22CA4DDB00221653 /* Factorys */ = {
+			isa = PBXGroup;
+			children = (
+				5930A96C22CA4DF700221653 /* SWTBtnFactory.swift */,
+			);
+			path = Factorys;
 			sourceTree = "<group>";
 		};
 		5AF54F2B0D78C7C0E7E27538 /* Pods */ = {
@@ -410,6 +860,11 @@
 				TargetAttributes = {
 					5930A7A0229C20DF00221653 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -436,11 +891,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5930A8FD22CA47E400221653 /* v24微信-按下@2x.png in Resources */,
+				5930A92922CA47E400221653 /* v28健康提醒@2x.png in Resources */,
+				5930A96422CA47E500221653 /* v32设备图@2x.png in Resources */,
+				5930A95522CA47E500221653 /* v1数据-常态@3x(1).png in Resources */,
+				5930A94C22CA47E500221653 /* v1数据-常态@3x.png in Resources */,
+				5930A8F822CA47E400221653 /* v28第三方消息推送@2x.png in Resources */,
+				5930A96622CA47E500221653 /* v32按钮-按下@3x.png in Resources */,
+				5930A95222CA47E500221653 /* v1签到图标-常态@3x.png in Resources */,
+				5930A96322CA47E500221653 /* v1身体数据@3x.png in Resources */,
+				5930A90A22CA47E400221653 /* v24签到图标@2x.png in Resources */,
 				5930A82022BDF01F00221653 /* tableview_arrow2x.png in Resources */,
+				5930A92422CA47E400221653 /* v24微信-常态@2x(1).png in Resources */,
+				5930A8EB22CA47E400221653 /* v24下载-按下@2x.png in Resources */,
+				5930A91622CA47E400221653 /* v1设置-常态@3x.png in Resources */,
+				5930A93922CA47E500221653 /* v28健康提醒@3x.png in Resources */,
+				5930A92D22CA47E500221653 /* v1签到底图-按下@2x.png in Resources */,
+				5930A91F22CA47E400221653 /* v25小圆点@3x.png in Resources */,
+				5930A94222CA47E500221653 /* v24朋友圈-按下@3x.png in Resources */,
+				5930A90322CA47E400221653 /* v23分享底板@3x.png in Resources */,
+				5930A91E22CA47E400221653 /* v1签到前进-按下@2x.png in Resources */,
+				5930A92A22CA47E400221653 /* v1签到前进-常态@3x.png in Resources */,
+				5930A95622CA47E500221653 /* v29连接底图-按下@2x.png in Resources */,
+				5930A90222CA47E400221653 /* v28免打扰@2x.png in Resources */,
+				5930A92C22CA47E500221653 /* v1我的-按下@3x.png in Resources */,
+				5930A8E722CA47E400221653 /* v28第三方消息推送@3x.png in Resources */,
 				5930A7AF229C20E100221653 /* LaunchScreen.storyboard in Resources */,
+				5930A8FE22CA47E400221653 /* v25蓝牙图@2x.png in Resources */,
+				5930A95422CA47E500221653 /* v1我的收藏@3x.png in Resources */,
+				5930A96722CA47E500221653 /* v23立即签到按钮-按下@3x.png in Resources */,
+				5930A92022CA47E400221653 /* v24微信-按下@2x(1).png in Resources */,
+				5930A96822CA47E500221653 /* v1添加设备@3x.png in Resources */,
+				5930A93422CA47E500221653 /* v29刷新@2x.png in Resources */,
+				5930A93622CA47E500221653 /* v1我的-按下@2x.png in Resources */,
+				5930A91B22CA47E400221653 /* v23分享底板@2x.png in Resources */,
+				5930A95E22CA47E500221653 /* v24下载-常态@3x.png in Resources */,
+				5930A91222CA47E400221653 /* v28查找手环@3x.png in Resources */,
+				5930A8EA22CA47E400221653 /* v1前进图标@3x.png in Resources */,
+				5930A92F22CA47E500221653 /* v29刷新@3x.png in Resources */,
+				5930A94722CA47E500221653 /* v32按钮-按下@2x.png in Resources */,
+				5930A94022CA47E500221653 /* v28远程音乐@2x.png in Resources */,
+				5930A8F322CA47E400221653 /* v28设备图@2x.png in Resources */,
+				5930A95A22CA47E500221653 /* v1我的收藏@2x.png in Resources */,
+				5930A91822CA47E400221653 /* v1我的设备@2x.png in Resources */,
+				5930A90122CA47E400221653 /* v1签到底图-常态@2x.png in Resources */,
+				5930A90C22CA47E400221653 /* v24朋友圈-常态@2x.png in Resources */,
+				5930A93D22CA47E500221653 /* v1设置-按下@3x.png in Resources */,
+				5930A95F22CA47E500221653 /* v1运动-常态@3x.png in Resources */,
+				5930A93122CA47E500221653 /* v28短信提醒@2x.png in Resources */,
+				5930A93C22CA47E500221653 /* v1设定目标@3x.png in Resources */,
+				5930A91D22CA47E400221653 /* v1签到底图-常态@3x.png in Resources */,
+				5930A8F022CA47E400221653 /* v24关闭-常态@3x.png in Resources */,
+				5930A8E622CA47E400221653 /* v25设备图@3x.png in Resources */,
+				5930A8F522CA47E400221653 /* v1前进图标@2x.png in Resources */,
+				5930A94B22CA47E500221653 /* v51为空图@2x.png in Resources */,
+				5930A8FB22CA47E400221653 /* v1返回-常态@2x.png in Resources */,
+				5930A91322CA47E400221653 /* v24签到图标@3x.png in Resources */,
+				5930A8F922CA47E400221653 /* v1签到图标-按下@2x.png in Resources */,
+				5930A8E822CA47E400221653 /* v29连接底图-常态@2x.png in Resources */,
+				5930A8F622CA47E400221653 /* v1运动-按下@3x.png in Resources */,
+				5930A91A22CA47E400221653 /* v28免打扰@3x.png in Resources */,
+				5930A91922CA47E400221653 /* v51返回-按下@2x.png in Resources */,
+				5930A8EC22CA47E400221653 /* v28设备图@3x.png in Resources */,
+				5930A8F122CA47E400221653 /* v23立即签到按钮-常态@3x.png in Resources */,
+				5930A93822CA47E500221653 /* v28来电提醒@2x.png in Resources */,
+				5930A94D22CA47E500221653 /* v1运动-常态@2x.png in Resources */,
+				5930A91C22CA47E400221653 /* v1我的-常态@2x.png in Resources */,
+				5930A94422CA47E500221653 /* v24微信-常态@3x(1).png in Resources */,
+				5930A8E422CA47E400221653 /* v33最小化-常态@3x.png in Resources */,
+				5930A95B22CA47E500221653 /* v24微信-常态@2x.png in Resources */,
+				5930A92E22CA47E500221653 /* v33翻转相机@2x.png in Resources */,
+				5930A95D22CA47E500221653 /* v33最小化-按下@2x.png in Resources */,
+				5930A95022CA47E500221653 /* v33最小化-按下@3x.png in Resources */,
+				5930A91422CA47E400221653 /* v28日程提醒@3x.png in Resources */,
+				5930A94A22CA47E500221653 /* v1身体数据@2x.png in Resources */,
+				5930A95122CA47E500221653 /* v24微信-常态@3x.png in Resources */,
+				5930A92B22CA47E500221653 /* v28来电提醒@3x.png in Resources */,
+				5930A92822CA47E400221653 /* v28远程相机@2x.png in Resources */,
+				5930A90522CA47E400221653 /* v1我的设备@3x.png in Resources */,
+				5930A93F22CA47E500221653 /* v35为空图@2x.png in Resources */,
+				5930A91722CA47E400221653 /* v28闹钟提醒@2x.png in Resources */,
+				5930A8EE22CA47E400221653 /* v23立即签到按钮-常态@2x.png in Resources */,
+				5930A92522CA47E400221653 /* v1设置-按下@2x.png in Resources */,
+				5930A93E22CA47E500221653 /* v33拍照-按下@3x.png in Resources */,
+				5930A92722CA47E400221653 /* v1设定目标@2x.png in Resources */,
+				5930A90E22CA47E400221653 /* v1签到图@2x.png in Resources */,
+				5930A94622CA47E500221653 /* v1添加设备@2x.png in Resources */,
+				5930A93722CA47E500221653 /* v1签到底图-按下@3x.png in Resources */,
+				5930A8FF22CA47E400221653 /* v1签到前进-按下@3x.png in Resources */,
 				5930A7AC229C20E100221653 /* Assets.xcassets in Resources */,
+				5930A8F722CA47E400221653 /* v29连接底图-常态@3x.png in Resources */,
+				5930A90922CA47E400221653 /* v28日程提醒@2x.png in Resources */,
+				5930A8E922CA47E400221653 /* v1运动-按下@2x.png in Resources */,
+				5930A8FA22CA47E400221653 /* v25设备图@2x.png in Resources */,
+				5930A96122CA47E500221653 /* v1数据-常态@2x.png in Resources */,
+				5930A95722CA47E500221653 /* v29连接底图-按下@3x.png in Resources */,
+				5930A8F222CA47E400221653 /* v32按钮-常态@3x.png in Resources */,
+				5930A94F22CA47E500221653 /* v1返回-按下@3x.png in Resources */,
+				5930A90722CA47E400221653 /* v33拍照-常态@2x.png in Resources */,
+				5930A8F422CA47E400221653 /* v24下载-按下@3x.png in Resources */,
+				5930A96522CA47E500221653 /* v24关闭-按下@3x.png in Resources */,
+				5930A8E322CA47E400221653 /* v1返回-常态@3x.png in Resources */,
+				5930A8E522CA47E400221653 /* v1签到图标-按下@3x.png in Resources */,
+				5930A93B22CA47E500221653 /* v28远程相机@3x.png in Resources */,
+				5930A90D22CA47E400221653 /* v1推荐好友@2x.png in Resources */,
+				5930A96222CA47E500221653 /* v51为空图@3x.png in Resources */,
+				5930A90822CA47E400221653 /* v1设置-常态@2x.png in Resources */,
+				5930A91522CA47E400221653 /* v33拍照-常态@3x.png in Resources */,
+				5930A96022CA47E500221653 /* v1数据-常态@2x(1).png in Resources */,
+				5930A8E122CA47E400221653 /* v24微信-按下@3x.png in Resources */,
+				5930A90422CA47E400221653 /* v51返回-按下@3x.png in Resources */,
+				5930A95C22CA47E500221653 /* v1返回-按下@2x.png in Resources */,
+				5930A8ED22CA47E400221653 /* v32按钮-常态@2x.png in Resources */,
+				5930A90B22CA47E400221653 /* v28查找手环@2x.png in Resources */,
+				5930A94122CA47E500221653 /* v24微信-按下@3x(1).png in Resources */,
+				5930A94922CA47E500221653 /* v32设备图@3x.png in Resources */,
+				5930A8E222CA47E400221653 /* v25蓝牙图@3x.png in Resources */,
+				5930A95922CA47E500221653 /* v28设备底图@2x.png in Resources */,
+				5930A94322CA47E500221653 /* v25小圆点@2x.png in Resources */,
+				5930A90F22CA47E400221653 /* v1签到图@3x.png in Resources */,
+				5930A93322CA47E500221653 /* v33翻转相机@3x.png in Resources */,
+				5930A90622CA47E400221653 /* v28闹钟提醒@3x.png in Resources */,
+				5930A8FC22CA47E400221653 /* v33最小化-常态@2x.png in Resources */,
+				5930A91122CA47E400221653 /* v1推荐好友@3x.png in Resources */,
 				5930A82222BDF01F00221653 /* tableview_arrow@3x.png in Resources */,
+				5930A90022CA47E400221653 /* v1我的-常态@3x.png in Resources */,
+				5930A93022CA47E500221653 /* v51返回-常态@3x.png in Resources */,
+				5930A94522CA47E500221653 /* v23立即签到按钮-按下@2x.png in Resources */,
+				5930A92222CA47E400221653 /* v28远程音乐@3x.png in Resources */,
+				5930A95322CA47E500221653 /* v28设备底图@3x.png in Resources */,
+				5930A92322CA47E400221653 /* v35为空图@3x.png in Resources */,
+				5930A92122CA47E400221653 /* v24朋友圈-按下@2x.png in Resources */,
+				5930A93522CA47E500221653 /* v51返回-常态@2x.png in Resources */,
+				5930A8EF22CA47E400221653 /* v24关闭-常态@2x.png in Resources */,
+				5930A93222CA47E500221653 /* v28短信提醒@3x.png in Resources */,
+				5930A95822CA47E500221653 /* v1签到图标-常态@2x.png in Resources */,
+				5930A94E22CA47E500221653 /* v24下载-常态@2x.png in Resources */,
+				5930A92622CA47E400221653 /* v33拍照-按下@2x.png in Resources */,
 				5930A82122BDF01F00221653 /* tableview_arrow.png in Resources */,
+				5930A94822CA47E500221653 /* v24关闭-按下@2x.png in Resources */,
+				5930A91022CA47E400221653 /* v24朋友圈-常态@3x.png in Resources */,
+				5930A93A22CA47E500221653 /* v1签到前进-常态@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +1107,7 @@
 			files = (
 				5930A81722BDEAA100221653 /* SWTMineViewController.swift in Sources */,
 				5930A82722BE011800221653 /* SWTSettingViewController.swift in Sources */,
+				5930A96A22CA492800221653 /* SWTMyDeviceCellModel.swift in Sources */,
 				5930A85222C11C9800221653 /* SWTSearchDeviceController.swift in Sources */,
 				5930A82F22BE057300221653 /* ZCCacheManager.swift in Sources */,
 				5930A83F22C1090000221653 /* SWTBaseSettingController.swift in Sources */,
@@ -525,6 +1117,7 @@
 				5930A7C5229C2AC300221653 /* SWTLoginController.swift in Sources */,
 				5930A84E22C11AD700221653 /* SWTGoalSettingController.swift in Sources */,
 				5930A84A22C1157C00221653 /* SWTAppInfo.swift in Sources */,
+				5930A85422C3B0D700221653 /* SWTMyDeviceConnectController.swift in Sources */,
 				5930A83522BE0EFD00221653 /* ZCNSObject+Dispatch.swift in Sources */,
 				5930A84222C10FE100221653 /* SWTAppCommonColor.swift in Sources */,
 				5930A83822BE0EFD00221653 /* ZCNumber+Change.swift in Sources */,
@@ -534,6 +1127,8 @@
 				5930A82522BDF25100221653 /* SWTMineCellModel.swift in Sources */,
 				5930A82B22BE031E00221653 /* SWTSettingTableViewCell.swift in Sources */,
 				5930A84822C112FE00221653 /* SWTAboutUsController.swift in Sources */,
+				5930A85722C3B2AA00221653 /* SWTMyDeviceHeaderView.swift in Sources */,
+				5930A96D22CA4DF700221653 /* SWTBtnFactory.swift in Sources */,
 				5930A83622BE0EFD00221653 /* ZCUIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,6 +1269,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN7JU5LSHZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartWatch",
+				);
 				INFOPLIST_FILE = SmartWatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -682,6 +1282,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chong.SmartWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SmartWatch/SmartWatch.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -693,6 +1294,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN7JU5LSHZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartWatch",
+				);
 				INFOPLIST_FILE = SmartWatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -701,6 +1307,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chong.SmartWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SmartWatch/SmartWatch.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

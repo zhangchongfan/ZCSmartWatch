@@ -50,6 +50,7 @@ extension SWTMineViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+       hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(SWTSettingViewController(), animated: true)
     }
 }

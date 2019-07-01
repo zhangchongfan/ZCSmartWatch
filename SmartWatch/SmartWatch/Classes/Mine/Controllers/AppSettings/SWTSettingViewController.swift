@@ -16,7 +16,7 @@ class SWTSettingViewController: UIViewController {
     
     lazy var controllers: [[UIViewController]] = {
         
-        return [[SWTUnitSettingController()], [SWTUnitSettingController(), SWTUnitSettingController()], [SWTUnitSettingController(), SWTUnitSettingController(), SWTAboutUsController()]]
+        return [[SWTUnitSettingController()], [SWTSearchDeviceController(), SWTUnitSettingController()], [SWTUnitSettingController(), SWTMyDeviceConnectController(), SWTAboutUsController()]]
     }()
     
     lazy var tableView: UITableView = {

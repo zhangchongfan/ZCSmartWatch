@@ -64,6 +64,13 @@ class SWTMyDeviceConnectController: UIViewController {
         }
         navigationItem.rightBarButtonItem = SWTBtnFactory.naviRightBarButtonItem("v1设置-常态", selectImageName: "v1设置-按下")
     }
+    
+    func showDisconnectAlert() {
+        let alert = UIAlertController.showAlert(nil, message: "设备已断开,该功能暂时不可用是否重新连接?", actions: ["重连"], cancel: "取消", color: SWTAppCommonColor.appMainColor()) { (index) in
+            
+        }
+        present(alert, animated: true, completion: nil)
+    }
 }
 
 extension SWTMyDeviceConnectController: UITableViewDelegate, UITableViewDataSource {
@@ -108,6 +115,26 @@ extension SWTMyDeviceConnectController: UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        if ZCBleCentralManager.sharedBle()?.connect == false {
+//            showDisconnectAlert()
+//            return
+        }
+        
+        if indexPath.section == 0 {
+            if indexPath.row == 0 {//查找手机
+                
+            }else if indexPath.row == 1 {//远程相机
+                
+            }else if indexPath.row == 2 {//音乐控制
+                self.navigationController?.pushViewController(SWTMusicControlController(), animated: true)
+            }
+        }
+        if indexPath.section == 1 {
+            self.navigationController?
+                .pushViewController(SWTScheduleAlertController(), animated: true)
+        }
+       
+        return
         ZCPeripheralOperation.share().zc_readDeviceMac { (data, mac) in
             print(mac)
         }
